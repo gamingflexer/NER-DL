@@ -1,0 +1,196 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.2.3,<3.3.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"99425de36",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "Address",
+      "Can Relocate to",
+      "Certifications",
+      "College",
+      "College Name",
+      "Companies worked at",
+      "Degree",
+      "Designation",
+      "Email Address",
+      "Graduation Year",
+      "Links",
+      "Location",
+      "Name",
+      "Relocate to",
+      "Rewards and Achievements",
+      "Skills",
+      "UNKNOWN",
+      "University",
+      "Years of Experience",
+      "abc",
+      "des",
+      "links",
+      "projects",
+      "state",
+      "training"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.0,
+    "ents_p":0.0,
+    "ents_r":0.0,
+    "ents_per_type":{
+      "Companies worked at":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "College Name":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Degree":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Location":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Graduation Year":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Name":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Links":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Email Address":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Skills":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Designation":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Years of Experience":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "projects":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Can Relocate to":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "UNKNOWN":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Rewards and Achievements":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Address":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "University":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Relocate to":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Certifications":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "state":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "links":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "College":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "training":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "des":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "abc":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "tok2vec_loss":0.0,
+    "ner_loss":430.1960587502
+  }
+}
