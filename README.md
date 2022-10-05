@@ -1,13 +1,9 @@
 # NER-DL
 
-# Spacy - v2
+- BERT & Works on Other transformers Models also
+- Spacy - v2
+- Spacy - v3
 
-- see all possible cominations
-- add new metrics
-- get the best model from it
+Research was done for Resume parsing which generally contains more than 25+ entities to detect. These scripts are tuned for smaller datasets with larger entities.
 
-# Spacy - v3
-
-- To solve error
-- Try 300 ones
-- use debug command to perfect spacy data 
+Hope it helps you !
